@@ -1,0 +1,41 @@
+<html>  
+<head>  
+<title> Validate the Password </title>  
+</head>  
+
+  
+<body>  
+<h1 style="color:green">login</h1>  
+
+  
+<form onsubmit ="return validateForm()">  
+  
+<!-- Enter email -->  
+<td> email* </td>  
+<input type = "email" id = "fname" value = "">   
+<span id = "blankMsg" style="color:red"> </span> <br><br>  
+  
+<!-- Enter name -->  
+<td>  Name </td>  
+<input type = "text" id = "lname" value = "">   
+<span id = "charMsg" style="color:red"> </span> <br><br>  
+  
+<!-- Create a new password -->  
+<td> Create Password* </td>  
+<input type = "password" id = "pswd1" value = "">   
+<span id = "message1" style="color:red"> </span> <br><br>  
+  
+<!--?Enter confirm password -->  
+<td> Confirm Password* </td>  
+<input type = "password" id = "pswd2" value = "">   
+<span id = "message2" style="color:red"> </span> <br><br>  
+  
+<!-- Click to verify valid password -->  
+<input type = "submit" value = "Submit">  
+  
+<!-- Click to reset fields -->  
+<button type = "reset" value = "Reset" >Reset</button>  
+</form>  
+</body>  
+<script src="script.js" ></script>
+</html>  
